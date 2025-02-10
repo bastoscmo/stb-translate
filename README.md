@@ -19,7 +19,7 @@ Ensure you have Python 3 installed. Clone this repository and navigate to the sc
 ## Usage
 ### Basic Command Format
 ```sh
-python stb-translate.py --in-format FORMAT --in-file INPUT_FILE --out-format FORMAT --out-file OUTPUT_FILE [--lattice LATTICE-VECTORS_FILE]
+python stb-translate.x --in-format FORMAT --in-file INPUT_FILE --out-format FORMAT --out-file OUTPUT_FILE [--lattice LATTICE-VECTORS_FILE]
 ```
 
 ### Arguments
@@ -36,16 +36,16 @@ python stb-translate.py --in-format FORMAT --in-file INPUT_FILE --out-format FOR
 ### Examples
 #### Convert CIF to POSCAR
 ```sh
-python stb-translate.py -if cif -i structure.cif -of poscar -o structure.POSCAR
+python stb-translate.x -if cif -i structure.cif -of poscar -o structure.POSCAR
 ```
 #### Convert POSCAR to XYZ (with lattice parameters)
 ```sh
-python stb-translate.py -if poscar -i structure.POSCAR -of xyz -o structure.xyz --lattice lattice.dat
+python stb-translate.x -if poscar -i structure.POSCAR -of xyz -o structure.xyz --lattice lattice.dat
 ```
 
 #### Convert SIESTA to DFTB (GEN)
 ```sh
-python stb-translate.py -if siesta -i structure.OUT_STRUCTURE -of dftb -o structure.gen
+python stb-translate.x -if siesta -i structure.OUT_STRUCTURE -of dftb -o structure.gen
 ```
 
 ## Error Handling
