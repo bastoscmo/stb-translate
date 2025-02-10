@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Ensure you have Python 3 installed. Clone this repository and navigate to the script's directory:
 
 ```sh
- git clone https://github.com/your-repo/stb-translate.git
+ git clone https://github.com/bastoscmo/stb-translate.git          
  cd stb-translate
 ```
 
