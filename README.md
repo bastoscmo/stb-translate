@@ -8,6 +8,21 @@ stb-translate is a command-line tool for converting atomic structure files betwe
 - Requires lattice parameters when converting to XYZ format
 - Easy-to-use command-line interface
 
+## Requirements
+
+This project depends on the following Python libraries:
+
+- `numpy`: For numerical array manipulation and scientific calculations.
+- `pymatgen`: For analysis and manipulation of crystalline structures.
+
+## Installing Dependencies
+
+To install the dependencies, use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Installation
 Ensure you have Python 3 installed. Clone this repository and navigate to the script's directory:
 
